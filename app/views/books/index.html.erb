@@ -1,3 +1,6 @@
 <h1>All Books</h1>
 <% @books.each do |book| %>
-<h3><%= book. %></h3><br>
+  <h2><%= book.title %></h2><br>
+  <h3><%= book.author %></h3><br>
+  <h5><%= book.publishing_date %></h5><br><br>
+<% end %>
